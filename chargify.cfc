@@ -85,7 +85,7 @@
 			</cfcase>
 			<cfdefaultcase>
 				<!--- ???? --->
-			    <cfmail to="zb185019@ncr.com" from="mh230120@ncr.com" subject="Chargify Unexpected Results" type="html">
+			    <cfmail to="admin@company.com" from="admin@company.com" subject="Chargify Unexpected Results" type="html">
 			    	https://#variables.domain#.chargify.com/#arguments.path#.json<br/>
 
 			    	#cfhttp.FileContent#<br/>
